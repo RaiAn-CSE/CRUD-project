@@ -6,5 +6,5 @@ Live Link :
 
 
 
-Use :Vite+React, CreateRouterBrowser, Dynamic-title,
+Use :Vite+React, CreateRouterBrowser, Dynamic-title, Tailwind.css+DaisyUi,
 

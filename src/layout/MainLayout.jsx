@@ -5,8 +5,10 @@ import Header from "../components/Header";
 const MainLayout = () => {
     return (
         <div>
-            <Header />
-            <div className="h-screen mx-[5%] my-[20px]">
+            <div className="sticky top-0 z-50">
+                <Header />
+            </div>
+            <div className="min-h-screen mx-[5%] my-[20px] overflow-y-auto">
                 <Outlet />
             </div>
             <Footer />
